@@ -1,0 +1,26 @@
+{
+  "id": "browser_001",
+  "name": "Navigate and extract data",
+  "description": "Navigate to a website, find a specific data element, and extract it",
+  "steps": [
+    "Navigate to target URL",
+    "Wait for page to load",
+    "Locate the target element by selector or text",
+    "Extract the value",
+    "Verify the extracted value matches expected pattern"
+  ],
+  "expected_outcome": "Correct data extracted without navigation errors",
+  "required_retained_facts": [
+    "Current page URL",
+    "Target selector or search criteria",
+    "What was last successfully clicked",
+    "Current goal (what we're looking for)",
+    "Any failed selectors that should not be retried"
+  ],
+  "allowed_tools": ["navigate", "screenshot", "find_element", "click", "extract_text"],
+  "evaluation_rubric": {
+    "success": "Data correctly extracted and matches expected value",
+    "partial": "Data extracted but incomplete or wrong format",
+    "failure": "Navigation failed or data not found"
+  }
+}

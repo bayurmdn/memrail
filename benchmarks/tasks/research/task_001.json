@@ -1,0 +1,26 @@
+{
+  "id": "research_001",
+  "name": "Research and compare",
+  "description": "Search for information about a topic, gather facts from multiple sources, and synthesize a comparison",
+  "steps": [
+    "Define comparison criteria",
+    "Search for information on first item",
+    "Search for information on second item",
+    "Extract key facts from each source",
+    "Write a structured comparison"
+  ],
+  "expected_outcome": "Well-structured comparison with facts from multiple sources",
+  "required_retained_facts": [
+    "Original comparison question",
+    "Key facts from each source",
+    "Which sources were checked",
+    "What claim has been verified",
+    "What question remains unanswered"
+  ],
+  "allowed_tools": ["search", "read_url", "summarize"],
+  "evaluation_rubric": {
+    "success": "Comparison complete with facts from 2+ sources",
+    "partial": "Comparison present but missing sources or incomplete",
+    "failure": "No comparison or task incomplete"
+  }
+}

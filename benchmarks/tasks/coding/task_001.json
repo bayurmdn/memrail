@@ -1,0 +1,25 @@
+{
+  "id": "coding_001",
+  "name": "Add function to module",
+  "description": "Edit an existing Python module to add a new function that sorts a list of dicts by a key",
+  "steps": [
+    "Read the module file",
+    "Add a new function `sort_by_key(items, key)` that sorts a list of dicts",
+    "Add docstring with example",
+    "Write a test for the function",
+    "Run the test to verify it passes"
+  ],
+  "expected_outcome": "Function added and test passes",
+  "required_retained_facts": [
+    "Current file being edited",
+    "Function signature and purpose",
+    "Test status (pass/fail)",
+    "Last error or blocker, if any"
+  ],
+  "allowed_tools": ["read_file", "write_file", "run_command"],
+  "evaluation_rubric": {
+    "success": "Test passes and function is correctly implemented",
+    "partial": "Function added but test fails",
+    "failure": "Task incomplete or function missing"
+  }
+}
