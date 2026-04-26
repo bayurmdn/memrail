@@ -36,8 +36,8 @@ dev = [
 memrail = "memrail.cli.main:app"
 
 [project.urls]
-Homepage = "https://github.com/memrail/memrail"
-Issues = "https://github.com/memrail/memrail/issues"
+Homepage = "https://github.com/bayurmdn/memrail"
+Issues = "https://github.com/bayurmdn/memrail/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["memrail"]
