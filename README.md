@@ -177,6 +177,18 @@ Add your own tasks in `benchmarks/tasks/{coding,browser,research}/` — see `tas
 
 ---
 
+## Documentation
+
+| Doc | Description |
+|-----|-------------|
+| [Architecture](docs/architecture.md) | Pipeline internals, module map, classifier logic, data flow |
+| [CLI Reference](docs/cli-reference.md) | All commands, flags, exit codes, pipeline patterns |
+| [Configuration](docs/configuration.md) | Token budget, store, thresholds, LLM summarization |
+| [Integrations](docs/integrations.md) | Claude Code, LangChain, CrewAI, custom agent loops |
+| [Benchmarks](docs/benchmarks.md) | Methodology, task schema, adding new tasks, CI setup |
+
+---
+
 ## Roadmap
 
 - [ ] Real tokenizer (tiktoken / `anthropic.count_tokens`) replacing char estimate
